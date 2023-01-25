@@ -14,9 +14,19 @@
         este vendedor ganha 15% de comissão sobre suas
         vendas efetuadas, informar o seu nome, o salário fixo e
         salário no final do mês.
-        
-        
-        </p><br><br>
-    <form action="../PHP/exer06.php" method="post">
-</body>
-</html>
+        <form action="../PHP/exer06.php" method="POST">
+            <label id="lNome">Informar o seu Nome? </label>
+            <input type="text" name="tNome"/><br><br>
+    
+            <label id="lSalario"> Qual é seu salario fixo por mês?</label>
+            <input type="number" name="tSalario"/><br><br>
+
+            <label id="lVendas"> Quantas vendas efetuadas foi feito no mês?</label>
+            <input type="number" name="tVendas"/><br><br>
+    
+            <button type="submit" onclick="vend()">Analizar</button>
+    
+        </form> 
+        <br><br><a href="../HTML/botoes.html"><button>Voltar</button></a>
+    </body>
+    </html>

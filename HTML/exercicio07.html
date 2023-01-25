@@ -8,15 +8,26 @@
 </head>
 <body>
     <h1>Exercicio 07</h1>
-    <p>Escrever um algoritmo que leia o nome de um
-        vendedor, o seu salário fixo e o total de vendas
-        efetuadas por ele no mês (em dinheiro). Sabendo que
-        este vendedor ganha 15% de comissão sobre suas
-        vendas efetuadas, informar o seu nome, o salário fixo e
-        salário no final do mês.
-        
-        
-        </p><br><br>
-    <form action="../PHP/exer07.php" method="post">
-</body>
-</html>
+    <p>Escrever um algoritmo que leia o nome de um aluno e
+        as notas das três provas que ele obteve no semestre. No
+        final informar o nome do aluno e a sua média
+        (aritmética)
+        <form action="../PHP/exer07.php" method="POST">
+            <label id="lNome">Informar o seu Nome? </label>
+            <input type="text" name="tNome"/><br><br>
+    
+            <label id="lNotas1"> Digite sua primeira nota?</label>
+            <input type="number" name="tNotas1"/><br><br>
+
+            <label id="lNotas2"> Digite sua segunda nota?</label>
+            <input type="number" name="tNotas2"/><br><br>
+
+            <label id="lNotas3"> Digite sua terceira nota?</label>
+            <input type="number" name="tNotas3"/><br><br>
+
+            <button type="submit" onclick="notas()">Analizar</button>
+    
+        </form> 
+        <br><br><a href="../HTML/botoes.html"><button>Voltar</button></a>
+    </body>
+    </html>

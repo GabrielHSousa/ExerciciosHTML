@@ -13,9 +13,34 @@
         de 3 notas. Faça um algoritmo que leia as notas, a
         opção escolhida pelo usuário e calcule a média.
         1. Aritmética | 2. Ponderada(3,3,4) | 3. Harmônica
-        
-        
-        </p><br><br>
-    <form action="../PHP/exer11.php" method="post">
-</body>
-</html>
+        <form action="../PHP/exer07.php" method="POST">
+            <label id="lNome">Informar o seu Nome? </label>
+            <input type="text" name="tNome"/><br><br>
+    
+            <label id="lNotas1"> Digite sua primeira nota?</label>
+            <input type="number" name="tNotas1"/><br><br>
+
+            <label id="lNotas2"> Digite sua segunda nota?</label>
+            <input type="number" name="tNotas2"/><br><br>
+
+            <label id="lNotas3"> Digite sua terceira nota?</label>
+            <input type="number" name="tNotas3"/><br><br>
+
+               
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao1">
+                <label class="form-check-label" for="inlineRadio1">1. Aritmética</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opcao2">
+                <label class="form-check-label" for="inlineRadio2">2.Ponderada(3,3,4) </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opcao2">
+                <label class="form-check-label" for="inlineRadio2">3. Harmônica</label>
+              </div><br><br>
+              <button type="submit" onclick="notas()">Analizar</button>
+        </form> 
+        <br><br><a href="../HTML/botoes.html"><button>Voltar</button></a>
+    </body>
+    </html>
